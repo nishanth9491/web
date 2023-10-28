@@ -1,0 +1,28 @@
+.dot {
+    cursor: pointer;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:  rgba(254, 254, 254, 0.511);
+    border-radius: 50%;
+    margin: 5px;
+    transition:0.5s;
+}
+
+.line {
+    width: 2px;
+    height: 10vh; /* Adjust the height as needed */
+    background-color: #c0b5a7;
+    
+}
+.dot:hover{
+    width: 0.75rem;
+    height: 0.75rem;
+
+}
+.dot.active{
+
+    width: 0.2rem;
+    height:5rem;
+    background-color: rgba(124, 66, 163, 0.506);
+}
+ 
